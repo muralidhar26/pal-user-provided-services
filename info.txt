@@ -1,0 +1,6 @@
+https://www.cloudfoundry.org/bosh/
+
+https://palexternal.slack.com/messages/GA2ULNQEA/
+https://des-moines-2018-04.pal.pivotal.io/index.html
+https://apps.sys.longs.pal.pivotal.io
+https://docs.cloudfoundry.org

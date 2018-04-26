@@ -1,6 +1,7 @@
 buildscript {
 	ext {
 		springBootVersion = '2.0.1.RELEASE'
+		mysqlVersion = "6.0.6"
 	}
 	repositories {
 		mavenCentral()
@@ -26,5 +27,7 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
+	compile("org.springframework.boot:spring-boot-starter-jdbc")
+	compile "mysql:mysql-connector-java:$mysqlVersion"
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }

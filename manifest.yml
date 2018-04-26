@@ -1,0 +1,8 @@
+---
+memory: 1G
+instances: 1
+applications:
+- name: pal-user-provided-services
+  path: build/libs/pal-user-provided-services-0.0.1-SNAPSHOT.jar
+  services:
+   - externaldatabase
